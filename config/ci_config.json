@@ -11,18 +11,18 @@
 	    		"pattern": "*.soy"
 	    	}
 	    ],
-	    "soyTemplates": [
+	    "goTemplates": [
 	    	{
 	    		"root": "templates",
 	    		"pattern": "*.tmpl"
 	    	}
-	    ],
+	    ]
  	},
   	"buildArtifacts": {
     	"buildCmd": ":"
   	},
   	"livePreview": {
     	"serveSetupCmd": ":",
-    	"serve_cmd": ":",
+    	"serve_cmd": ":"
   	}
 }
