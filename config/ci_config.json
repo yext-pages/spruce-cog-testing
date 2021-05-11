@@ -1,0 +1,28 @@
+{
+ 	"artifactStructure": {
+   		"assets": [
+      		{
+        		"root": "assets"
+      		}
+    	],
+	    "soyTemplates": [
+	    	{
+	    		"root": "templates",
+	    		"pattern": "*.soy"
+	    	}
+	    ],
+	    "soyTemplates": [
+	    	{
+	    		"root": "templates",
+	    		"pattern": "*.tmpl"
+	    	}
+	    ],
+ 	},
+  	"buildArtifacts": {
+    	"buildCmd": ":"
+  	},
+  	"livePreview": {
+    	"serveSetupCmd": ":",
+    	"serve_cmd": ":",
+  	}
+}
