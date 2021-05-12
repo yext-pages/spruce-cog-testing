@@ -1,0 +1,14 @@
+My name is {{> partial }}.
+I live at {{address}}.
+I live with {{#each dogs}}{{#if @index}}{{this}}{{else}}{{this}} and {{/if}}{{/each}}
+
+{{translate phrase="[[count]] Boutique" pluralForm="[[count]] Boutiques" count=5}}
+{{translate phrase="[[count]] Boutique" pluralForm="[[count]] Boutiques" count=1}}
+{{translate phrase="[[count]] Boutique" pluralForm="[[count]] Boutiques" count=0}}
+{{translate phrase="[[count]] Boutique"}}
+{{translate phrase="This site is property of: [[address]]"}}
+{{translate phrase="This site is property of: [[address]]" count=5}}
+{{translate phrase="We have the best [[best]]" context="ctx1"}}
+{{translate phrase="We have the best [[best]]" context="ctx2" best="nutz"}}
+{{convertRTFToHTML "plaintext"}}
+{{convertRTFToHTML "**bold** *italics* ++underlined++ [hyperlink](link.com)"}}
