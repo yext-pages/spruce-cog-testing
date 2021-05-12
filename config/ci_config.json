@@ -16,12 +16,6 @@
 	    		"root": "templates",
 	    		"pattern": "*.tmpl"
 	    	}
-	    ],
-		 "handlebarsTemplates": [
-		{
-			"root": "templates",
-			"pattern": "*.hbs"
-		}
 	    ]
  	},
   	"buildArtifacts": {
