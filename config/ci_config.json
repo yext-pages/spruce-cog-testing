@@ -16,12 +16,7 @@
 	    		"root": "templates",
 	    		"pattern": "*.tmpl"
 	    	}
-	    ],
-		 "hbsTemplates": [
-		{
-			"root": "templates",
-			"pattern": "*.hbs"
-		}]
+	    ]
  	},
   	"buildArtifacts": {
     	"buildCmd": ":"
