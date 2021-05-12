@@ -21,7 +21,7 @@
 		{
 			"root": "templates",
 			"pattern": "*.hbs"
-		}
+		}]
  	},
   	"buildArtifacts": {
     	"buildCmd": ":"
