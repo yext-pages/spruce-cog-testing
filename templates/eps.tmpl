@@ -13,6 +13,7 @@
         <h1>The name is: {{.name}} ({{.meta.locale}})</h1>
         <h2>The description is: {{.description}}</h2>
         <p>The external entity id is: {{.id}}</p>
+        <div>{{ translate "All Boutiques" }}</div>
         <div>{{ translate "This site is property of: [[.name]]" }}<div>
         <div>{{ translatePlural "[[count]] Boutique" "[[count]] Boutiques" 2}}<div>
         <div>{{ convertRTFToHTML "**bold** *italics* ++underlined++ [hyperlink](link.com)"}}<div>
