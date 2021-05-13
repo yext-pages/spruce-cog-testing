@@ -12,8 +12,8 @@
       "name": "Handlebars Pages",
       "streamId": "pages-locations-small",
       "handlebarsTemplateEntityPageSet": {
-        "htmlTemplate": "template",
-        "urlTemplate": "url"
+        "htmlTemplate": "template.hbs",
+        "urlTemplate": "url.hbs"
       }
     }
   ]
