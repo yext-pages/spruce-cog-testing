@@ -1,10 +1,10 @@
 {
  	"artifactStructure": {
-   		"assets": [
+   	    "assets": [
       		{
         		"root": "assets"
       		}
-    	],
+    	    ],
 	    "soyTemplates": [
 	    	{
 	    		"root": "templates",
@@ -18,9 +18,10 @@
 	    	}
 	    ],
 	    "translations": [
-	      {
-		"pattern": "**/*.po"
-	      }
+	        {
+	    		"root": "messages",
+			"pattern": "*.po"
+	        }
 	    ]
  	},
   	"buildArtifacts": {
