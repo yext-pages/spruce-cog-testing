@@ -7,14 +7,6 @@
         "htmlTemplate": "soy.eps.content",
         "urlTemplate": "soy.eps.url"
       }
-    },
-     {
-      "name": "Handlebars Pages",
-      "streamId": "pages-locations-small",
-      "handlebarsTemplateEntityPageSet": {
-        "htmlTemplate": "template.hbs",
-        "urlTemplate": "url.hbs"
-      }
     }
   ]
 }
