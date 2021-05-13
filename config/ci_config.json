@@ -16,7 +16,12 @@
 	    		"root": "templates",
 	    		"pattern": "*.tmpl"
 	    	}
-	    ]
+	    ],
+		 "translations": [
+      {
+        "pattern": "**/*.po"
+      }
+    ]
  	},
   	"buildArtifacts": {
     	"buildCmd": ":"
