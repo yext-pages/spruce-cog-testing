@@ -1,6 +1,13 @@
-My name is {{> partial }}.
+---
+{
+    "streamId": "pages-locations",
+    "urlFormat": "kg-go-{{.meta.locale}}-{{.uid}}.html"
+}
+---
+
+<h1>The name is: {{name}} ({{meta.locale}})</h1>
+
 I live at {{address}}.
-I live with {{#each dogs}}{{#if @index}}{{this}}{{else}}{{this}} and {{/if}}{{/each}}
 
 {{translate phrase="[[count]] Boutique" pluralForm="[[count]] Boutiques" count=5}}
 {{translate phrase="[[count]] Boutique" pluralForm="[[count]] Boutiques" count=1}}
