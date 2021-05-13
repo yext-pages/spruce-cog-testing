@@ -10,6 +10,12 @@
 	    		"root": "templates",
 	    		"pattern": "*.soy"
 	    	}
+	    ],
+	    "goTemplates": [
+	    	{
+	    		"root": "templates",
+	    		"pattern": "*.tmpl"
+	    	}
 	    ]
  	},
   	"buildArtifacts": {
