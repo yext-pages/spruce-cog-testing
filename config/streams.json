@@ -2,7 +2,7 @@
   "features": [
     {
       "name": "Soy Pages",
-      "streamId": "pages-locations-small",
+      "streamId": "pages-locations-small-en",
       "soyTemplateEntityPageSet": {
         "htmlTemplate": "soy.eps.content",
         "urlTemplate": "soy.eps.url"
