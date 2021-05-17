@@ -1,0 +1,14 @@
+---
+{
+    "streamId": "pages-joe-2",
+    "urlFormat": "kg-hbs-{{.meta.locale}}-{{.uid}}.html"
+}
+---
+<html>
+    <body>
+        <div>Language: {{translate phrase="Italian"}}<div>
+        <h1>The name is: {{name}} ({{meta.locale}})</h1>
+        <p>They have a {{description}} hopefully!</p>
+        {{convertRTFToHTML "**bold** *italics* ++underlined++ [hyperlink](link.com)"}}
+    </body>
+</html>
