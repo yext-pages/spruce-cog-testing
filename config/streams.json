@@ -1,20 +1,20 @@
 {
-  "features": [
-    {
-      "name": "Soy Pages",
-      "streamId": "pages-joe-2",
-      "soyTemplateEntityPageSet": {
-        "htmlTemplate": "soy.eps.content",
-        "urlTemplate": "soy.eps.url"
-      }
-    },
-    {
+	"features": [
+		{
+			"name": "Soy Pages",
+			"streamId": "pages-joe-2",
+			"soyTemplateEntityPageSet": {
+				"htmlTemplate": "soy.eps.content",
+				"urlTemplate": "soy.eps.url"
+			}
+		},
+		{
 			"name": "KG HBS EPS",
 			"streamLabel": "pages-joe-2",
 			"handlebarsTemplateEntityPageSet": {
-				"template": "eps",
+				"htmlTemplate": "eps",
 				"urlTemplate": "url"
 			}
 		}
-  ]
+	]
 }
