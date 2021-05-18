@@ -12,8 +12,8 @@
 			"name": "KG HBS EPS",
 			"streamLabel": "pages-joe-2",
 			"handlebarsTemplateEntityPageSet": {
-				"htmlTemplate": "eps",
-				"urlTemplate": "url"
+				"htmlTemplate": "eps.hbs",
+				"urlTemplate": "url.hbs"
 			}
 		}
 	]
