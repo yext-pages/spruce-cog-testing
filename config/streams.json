@@ -10,7 +10,7 @@
 		},
 		{
 			"name": "KG HBS EPS",
-			"streamLabel": "pages-joe-2",
+			"streamId": "pages-joe-2",
 			"handlebarsTemplateEntityPageSet": {
 				"htmlTemplate": "eps.hbs",
 				"urlTemplate": "url.hbs"
