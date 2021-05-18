@@ -7,6 +7,14 @@
         "htmlTemplate": "soy.eps.content",
         "urlTemplate": "soy.eps.url"
       }
-    }
+    },
+    {
+			"name": "KG HBS EPS",
+			"streamLabel": "pages-joe-2",
+			"handlebarsTemplateEntityPageSet": {
+				"template": "eps",
+				"urlTemplate": "url"
+			}
+		}
   ]
 }
