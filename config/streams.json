@@ -13,7 +13,7 @@
 			"streamId": "pages-joe-2",
 			"handlebarsTemplateEntityPageSet": {
 				"htmlTemplate": "eps",
-				"urlTemplate": "url"
+				"urlTemplate": "eps.hbs"
 			}
 		}
 	]
