@@ -23,7 +23,7 @@
 	    		"pattern": "*.hbs"
 	    	}
 	    ],
-	    "messages": [
+	    "translations": [
 	    	{
 	    		"root": "translations",
 	    		"pattern": "*.po"
