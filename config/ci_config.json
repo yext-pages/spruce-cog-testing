@@ -22,6 +22,12 @@
 	    		"root": "templates",
 	    		"pattern": "*.hbs"
 	    	}
+	    ],
+	    "messages": [
+	    	{
+	    		"root": "translations",
+	    		"pattern": "*.po",
+	    	}
 	    ]
  	},
   	"buildArtifacts": {

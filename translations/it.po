@@ -1,0 +1,84 @@
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Mime-Version: 1.0\n"
+"Project-Id-Version: src\n"
+
+#. #-#-#-#-#  - (src)  #-#-#-#-#
+#.
+#. #-#-#-#-#  - (src)  #-#-#-#-#
+#. Label of the link to the top directory level
+#: id=9033726186947367594
+msgid "All Boutiques"
+msgstr "Tutte le boutique"
+
+#.
+#: id=6502253082380272939
+msgid "Back To Top"
+msgstr "Torna su"
+
+#.
+#: id=2935232983274991580
+msgid "Italian"
+msgstr "Italiano"
+
+#.
+#: id=5866254605255506989
+msgid "English"
+msgstr "Inglese"
+
+#.
+#: id=7540322082683716268
+msgid "Open Language Menu"
+msgstr "Apri Menu lingua"
+
+#.
+#: id=7747015642127049829
+msgid "Close Language Menu"
+msgstr "Chiudi Menu lingua"
+
+#.
+#: id=679851261531413848
+msgid "Follow us on"
+msgstr "Follow Us on"
+
+#.
+#: id=487077452159084336
+msgid "Select Language"
+msgstr "Select Language"
+
+#. Sitemap Meta Title
+#: id=2849113342502701962
+msgid "Site Map | %s"
+msgstr "Site Map | %s"
+
+#. Sitemap Meta Description
+#: id=1499969456034396116
+msgid "Site map for %s"
+msgstr "Site map for %s"
+
+#. X number of locations within a country or region.
+#: id=3796643081403764080 var=ENTITY_COUNT_1
+msgid "%d Boutique"
+msgid_plural "%d Boutiques"
+msgstr[0] "%d Boutique"
+msgstr[1] "%d Boutiques"
+
+#. X number of locations within a country or region.
+#: id=3796643081403764080 var=ENTITY_COUNT_1
+msgid "%d Boutique, in City: %s"
+msgid_plural "%d Boutiques, in City: %s"
+msgstr[0] "%d Boutique, in City: %s"
+msgstr[1] "%d Boutiques, in City: %s"
+
+#. Sitemap Meta Description
+#: id=1499969456034396116
+msgid "This site is property of: %s"
+msgstr "Questo sito è di proprietà di: %s"
+
+#. Context description
+#: id=1499969456034396115
+msgctxt "Ctx"
+msgid "We have the best %s"
+msgstr "Abbiamo il miglior %s"
