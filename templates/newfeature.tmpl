@@ -1,0 +1,40 @@
+---
+{
+    "stream": {
+      "$id": "fancy-new-stream",
+      "source": "knowledgeGraph",
+      "fields": [
+        "id",
+        "name",
+        "address",
+        "hours",
+        "paymentOptions",
+        "description",
+        "meta"
+      ],
+      "filter": {
+        "entityTypes": [
+          "location"
+        ],
+        "savedFilterIds": [
+          "465593563"
+        ]
+      }
+    }
+    "urlFormat": "kg-go-{{.meta.locale}}-{{.uid}}.html"
+}
+---
+
+{{define "eps.tmpl" -}}
+<html>
+    <body>
+        <p>Spruce M4 Test EPS:</p>
+        <p>Go HTML Template</p>
+        <h1>The name is: {{.name}} ({{.meta.locale}})</h1>
+        <h2>The description is: {{.description}}</h2>
+        <p>The external entity id is: {{.id}}</p>
+        <p>The global data is: {{.global.test}}</p>
+        <p>look out!</p>
+    </body>
+</html>
+{{end}}
