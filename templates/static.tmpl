@@ -1,0 +1,14 @@
+---
+{
+    "urlFormat": "{{.global.staticSlug}}.html"
+}
+---
+
+{{define "newfeature.tmpl" -}}
+<html>
+    <body>
+        <p>Spruce Static Rendered Page</p>
+        <p>The global data is: {{.global.test}}</p>
+    </body>
+</html>
+{{end}}

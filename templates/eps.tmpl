@@ -1,6 +1,26 @@
 ---
 {
-    "streamId": "pages-joe-2",
+    "stream": {
+      "$id": "check-this-stream",
+      "source": "knowledgeGraph",
+      "fields": [
+        "id",
+        "name",
+        "address",
+        "hours",
+        "paymentOptions",
+        "description",
+        "meta"
+      ],
+      "filter": {
+        "entityTypes": [
+          "location"
+        ],
+        "savedFilterIds": [
+          "465593563"
+        ]
+      }
+    },
     "urlFormat": "kg-go-{{.meta.locale}}-{{.uid}}.html"
 }
 ---
@@ -14,6 +34,7 @@
         <h2>The description is: {{.description}}</h2>
         <p>The external entity id is: {{.id}}</p>
         <p>The global data is: {{.global.test}}</p>
+        <div>Translating Italian: {{ translate "Italian"}}<div>
     </body>
 </html>
 {{end}}
