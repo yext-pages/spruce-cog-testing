@@ -7,7 +7,7 @@
     	],
 	    "soyTemplates": [
 	    	{
-	    		"root": "templates",
+	    		"root": "templtes",
 	    		"pattern": "*.soy"
 	    	}
 	    ],
